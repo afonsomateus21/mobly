@@ -1,0 +1,73 @@
+.container {
+  background: var(--bg-dark);
+
+  .releases-content {
+    height: 480px;
+    background-image: url('../../assets/background-image.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    div {
+      margin: 0 auto;
+      max-width: 1120px;
+      
+      h1 {
+        font-size: 8rem;
+      }
+
+      p {
+        color: var(--c-black);
+        font-weight: 500;
+        font-size: 1.12rem;
+        letter-spacing: 0.08rem;
+      }
+
+      button {
+        padding: 3px 18px;
+        background: var(--c-seadarkblue);
+        color: var(--bg-light);
+        font-weight: 700;
+        border: 0;
+        margin-top: 30px;
+      }
+    }
+
+    .subtitle {
+      margin: 30px auto 15px auto;
+
+      span {
+        font-weight: 600;
+      }
+    }
+
+    .container-offers {
+      margin: 0 auto;
+      max-width: 1120px;
+
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+
+  .floripa-kitchen {
+    margin: 400px 0 100px auto;
+  }
+
+  .exclusive-container {
+    margin: 0 auto;
+    max-width: 1120px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .specials-container {
+    margin: 100px auto;
+    max-width: 1120px;
+    display: grid;
+    grid-template-columns: 250px 250px 250px;
+
+    .box1 {
+      display: grid;
+    }
+  }
+}
